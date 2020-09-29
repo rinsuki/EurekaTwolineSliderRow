@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'EurekaTwolineSliderRow_Example' do
+  platform :ios, '11.0'
+  pod 'Eureka', '~> 5.3.0'
+  pod 'EurekaTwolineSliderRow', :path => '../'
+
+  target 'EurekaTwolineSliderRow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
